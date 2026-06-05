@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Pictures
+*.jpg
+media/*.png
+
+
+# Only weights are those of SSD Mobilenet
+*.ckptl
+*.h5
+*.config
+
+classifier/*.pkl
+classifier/new_classifiers/*.pkl
+
+detection/model/*.pb
+recognition/model/*.pb
+
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
